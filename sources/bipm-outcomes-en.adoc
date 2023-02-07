@@ -108,13 +108,19 @@ citable, including the following:
 
 * Relevant to meetings
 ** Meetings
-** Meeting reports
+** Proceedings / Meeting reports
 ** Meeting outcomes (decisions, resolutions, recommendations, statement)
 
 * Publications
+** SI Brochure
+** mises en pratique
+** Rapports
+** Monographies
+** JCGM Publications: Guides in Metrology
+** Recommended values of standard frequencies
 ** Strategy documents
 ** Meeting documents
-** Guidance documents
+** Guidance documents (e.g. Guidance documents on the CIPM MRA)
 
 * Entities
 ** Committees
@@ -131,16 +137,170 @@ including:
 * CIPM Consultative Committees
 ** Working groups
 ** Discussion groups
-* joint committees
+** Task groups
+* Joint committees
 ** Working groups
 ** Discussion groups
 
+NOTE: The full list of groups are available at <<bipm-groups-codes>>.
 
-== Identifiers and citation syntax for meeting outcomes
+// == Identifiers and citation syntax for meetings
+
+// === General
+
+
+
+== Identifiers and citation syntax for meeting proceedings or meeting reports
 
 === General
 
-This document defines two types of citation syntaxes for BIPM outcomes:
+This document defines two types of citation syntaxes for meeting proceedings or
+meeting reports:
+
+* full-length syntax: to be used when referencing from a bibliographic section;
+
+* short syntax: to be used as a shorthand reference within text.
+
+
+=== Syntax components
+
+In the following clauses, these components are used to describe particular
+parts of the reference syntax.
+
+`group-name`:: is the name of the publishing group
+
+`group-short-name`:: is the short name of the publishing group.
+
+`proceedings-name`:: is the English or French name of the proceedings publication or report of the subject meeting.
+
+`meeting-sequence`:: is the sequence number of the subject meeting in ordinal format.
+
+`location`:: is the web-accessible location of the proceedings publication or report.
++
+[example]
+https://www.bipm.org/documents/20126/30876792/CGPM26.pdf/9db96c32-a986-e32a-09f9-3ed7e6c77cf7
+
+
+=== Full-length
+
+==== Single language: French
+
+The general pattern is as follows:
+
+[source%unnumbered]
+----
+{group-name}. {proceedings-name}. Disponible à: {location}
+----
+
+Where,
+
+`group-name`:: is the name of the publishing group
++
+[example]
+"Conférence générale des poids et mesures." in French.
+
+`proceedings-name`:: is the English or French name of the proceedings publication or report of the subject meeting.
++
+[example]
+"Comptes rendus de la 26e réunion de la CGPM." in French.
+
+[example]
+Conférence générale des poids et mesures.
+Comptes rendus de la 26e réunion de la CGPM.
+Available at: https://www.bipm.org/documents/20126/30876792/CGPM26.pdf/9db96c32-a986-e32a-09f9-3ed7e6c77cf7
+
+NOTE: In the full-length syntax, the year of the meeting is not given.
+
+
+==== Single language: English
+
+The general pattern is as follows:
+
+[source%unnumbered]
+----
+{group-name}. {proceedings-name}. Available at: {location}
+----
+
+Where,
+
+`group-name`:: is the name of the publishing group
++
+[example]
+"General Conference on Weights and Measures." in English.
+
+`proceedings-name`:: is the English or French name of the proceedings publication or report of the subject meeting.
++
+[example]
+"Proceedings of the 26th meeting of the CGPM." in English.
+
+[example]
+General Conference on Weights and Measures.
+Proceedings of the 26th meeting of the CGPM.
+Available at: https://www.bipm.org/documents/20126/30876792/CGPM26.pdf/9db96c32-a986-e32a-09f9-3ed7e6c77cf7
+
+NOTE: In the full-length syntax, the year of the meeting is not given.
+
+
+=== Short
+
+The general pattern is as follows:
+
+[source%unnumbered]
+----
+{group-short-name} {meeting-sequence} {venue} -- {outcomes-type} ({year})
+----
+
+Where,
+
+`group-short-name`:: is the short name of the publishing group.
++
+[example]
+CIPM.
+
+`meeting-sequence`:: is the sequence number of the subject meeting in ordinal format.
++
+[example]
+`111e` in French.
++
+[example]
+`111th` in English.
+
+`venue`:: is the French or English name of the gathering.
++
+[example]
+"réunion" in French.
++
+[example]
+"meeting" in English.
+
+`outcomes-type`:: type of outcomes.
++
+[example]
+"Décisions" in French.
++
+[example]
+"Decisions" in English.
+
+`year`:: year of the subject meeting.
++
+[example]
+`2022`.
+
+
+[example]
+CIPM 111th meeting -- Decisions (2022)
+
+[example]
+CIPM 111e réunion -- Décisions (2022)
+
+
+
+== Identifiers and citation syntax for individual meeting outcomes
+
+=== General
+
+This document defines two types of citation syntaxes for individual BIPM
+outcomes:
 
 * full-length syntax: to be used when referencing within textual content;
 
@@ -210,7 +370,6 @@ Recommandation 2 du CCDS (1970).
 
 [example]
 Résolution 1 de la CGPM (2018).
-
 
 
 For Decisions of the CIPM (since 2012), and
@@ -394,9 +553,263 @@ CIPM DECN 111-10 (2022).
 JCRB REC 43-1 (2021).
 
 
+== Uniform resource names (URNs)
+
+=== General
+
+Uniform resource names (URNs) are defined in <<rfc-8141>> as unique identifiers
+for information resources.
+
+BIPM defines a URN syntax to identify the multitude of information resources it
+publishes.
+
+NOTE: An information resources can contain one or more information resources.
+Each information resource can be directly identified by exactly one URN.
+
+
+=== Syntax
+
+The pattern of the URN for a BIPM published information resource is as
+follows.
+
+[source%unnumbered]
+----
+urn:bipm:{version}:{group}:{venue-type}:{venue-id}:{type}:{identifier}:{date}
+----
+
+Where,
+
+version:: identifies the version of the URN pattern. The syntax described in
+this document is considered as `v1`. The only allowed value is `v1`.
+
+group:: group responsible for the creation of the information resource. Values
+available at <<bipm-groups-codes>>.
+
+venue-type:: type of venue where this information resource is produced
+
+venue-id:: identifier of the venue where this information resource is produced
+
+type:: type of information resource
+
+identifier:: unique identifier of the information resource within scope of the
+information resource type
+
+date:: date of publication of the information resource
+
+For the SI Brochure, it uses the following pattern:
+
+[source%unnumbered]
+----
+urn:bipm:v1:bipm:si-brochure:{number}
+----
+
+
+
+[example]
+https://www.bipm.org/en/committees/ci/cipm/95-2006/recommendation-1
+`urn:bipm:v1:cipm:95-2006:resolution:1`
+
+[example]
+CIPM Decision CIPM/110-17 (2021)
+`urn:bipm:v1:cipm:decision:110-17:2021`
+
+[example]
+CGPM Resolution
+https://www.bipm.org/en/committees/cg/cgpm/26-2018/resolution-1
+`urn:bipm:v1:cgpm:26:2018:resolution:1`
+
+[example]
+Proceedings of the 26th CGPM (2018), 2019, p472
+`urn:bipm:v1:cgpm:meeting-26:2018:proceedings:2019`
+
+
+[appendix,obligation=informative]
+[[bipm-groups-codes]]
+== BIPM groups and codes
+
+.BIPM group names, identifiers and codes
+[cols="a,a,4a,4a"]
+|===
+| Identifier | Code | Name (fr) | Name (en)
+
+| CIPM | cipm | Comité international des poids et mesures | International Committee for Weights and Measures
+| CGPM | cgpm | Conférence générale des poids et mesures | General Conference on Weights and Measures
+| BIPM | bipm | Secrétariat | Secretariat
+
+4+|
+4+| _CIPM CONSULTATIVE COMMITTEES_
+| CCAUV | ccauv | Comité consultatif de l'acoustique, des ultrasons et des vibrations | Consultative Committee for Acoustics, Ultrasound and Vibration
+| CCEM | ccem | Comité consultatif d'électricité et magnétisme | Consultative Committee for Electricity and Magnetism
+| CCL | ccl | Comité consultatif des longueurs | Consultative Committee for Length
+| CCM | ccm | Comité consultatif pour la masse et les grandeurs apparentées | Consultative Committee for Mass and Related Quantities
+| CCPR | ccpr | Comité consultatif de photométrie et radiométrie | Consultative Committee for Photometry and Radiometry
+| CCQM | ccqm | Comité consultatif pour la quantité de matière : métrologie en chimie et biologie | Consultative Committee for Amount of Substance: Metrology in Chemistry and Biology
+| CCRI | ccri | Comité consultatif des rayonnements ionisants | Consultative Committee for Ionizing Radiation
+| CCT | cct | Comité consultatif de thermométrie | Consultative Committee for Thermometry
+| CCTF | cctf | Comité consultatif du temps et des fréquences | Consultative Committee for Time and Frequency
+| CCU | ccu | Comité consultatif des unités | Consultative Committee for Units
+
+4+|
+4+| _JOINT COMMITTEES_
+| JCGM | jcgm | Comité commun pour les guides en métrologie | Joint Committee for Guides in Metrology
+| JCRB | jcrb | Comité mixte des organisations régionales de métrologie et du BIPM | Joint Committee of the Regional Metrology Organizations and the BIPM
+| JCTLM | jctlm | Comité commun pour la traçabilité en médecine de laboratoire | Joint Committee for Traceability in Laboratory Medicine
+
+4+|
+4+| _Working groups: CIPM_
+| CIPM-PFAB | cipm-pfab | *TODO* | BIPM Pension Fund Advisory Board
+| CIPM-SC-STRATEGY | cipm-sc-strategy | *TODO* | CIPM Sub-Committee on Strategy
+| CIPM-SC-FINANCE | cipm-sc-finance | *TODO* | CIPM Sub-Committee on Finance
+| CIPM-TG-DSI | cipm-tg-dsi | *TODO* | CIPM Task Group on the Digital SI
+| CIPM-WG-EMPLOYMENT | cipm-wg-employment | *TODO* | CIPM ad hoc Working Group on Conditions of Employment
+
+4+|
+4+| _Working groups: CGPM_
+| CEC | cgpm-cec | Commission pour l'élection du CIPM | Committee for CIPM Election
+| WG-MS | cgpm-wg-ms | Groupe de travail des représentants des États Membres | Working Group of Member State Representatives
+
+4+|
+4+| _Working groups: CCAUV_
+| CCAUV-KCWG | ccauv-kcwg | *TODO* | CCAUV Working Group for Key Comparisons
+| CCAUV-SPWG | ccauv-spwg | *TODO* | CCAUV Working Group on Strategic Planning
+| CCAUV-RMOWG | ccauv-rmowg | *TODO* | CCAUV Working Group for RMO Coordination
+
+4+|
+4+| _Working groups: CCEM_
+| CCEM-GT-RF | ccem-gt-rf | *TODO* | CCEM Working Group on Radiofrequency Quantities
+| CCEM-WGLF | ccem-wglf | *TODO* | CCEM Working Group on Low-Frequency Quantities
+| CCEM-WGRMO | ccem-wgrmo | *TODO* | CCEM Working Group on RMO Coordination
+
+4+|
+4+| _Working groups: CCL_
+
+| CCL-TG-DIG | ccl-tg-dig | *TODO* | CCL Task Group on Digitalization
+| CCL-WG-MRA | ccl-wg-mra | *TODO* | CCL Working Group on the CIPM MRA
+| CCL-WG-N | ccl-wg-n | *TODO* | CCL Working Group on Dimensional Nanometrology
+| CCL-WG-S | ccl-wg-s | *TODO* | CCL Working Group on Strategic Planning
+| CCL-CCTF-WGFS | ccl-cctf-wgfs | *TODO* | CCL-CCTF Working Group on Frequency Standards
+
+4+|
+4+| _Discussion groups: CCL_
+| CCL-DG1 | ccl-dg1 | *TODO* | CCL Discussion Group on gauge blocks (short & long)
+| CCL-DG2 | ccl-dg2 | *TODO* | CCL Discussion Group on thermal expansion (of dimensional artefacts)
+| CCL-DG3 | ccl-dg3 | *TODO* | CCL Discussion Group on angle
+| CCL-DG4 | ccl-dg4 | *TODO* | CCL Discussion Group on cylindrical diameter standards
+| CCL-DG5 | ccl-dg5 | *TODO* | CCL Discussion Group on step gauge
+| CCL-DG6 | ccl-dg6 | *TODO* | CCL Discussion Group on coordinate metrology
+| CCL-DG7 | ccl-dg7 | *TODO* | CCL Discussion Group on linescales
+| CCL-DG8 | ccl-dg8 | *TODO* | CCL Discussion Group on surface texture
+| CCL-DG11 | ccl-dg11 | *TODO* | CCL Discussion Group on mise en pratique lasers and femtosecond combs
+
+4+|
+4+| _Working groups: CCM_
+| CCM-TGPfD-kg | ccm-tgpfd-kg | *TODO* | CCM Task Group on the Phases for the Dissemination of the kilogram following redefinition
+| CCM-WGDV | ccm-wgdv | *TODO* | CCM Working Group on Density and Viscosity
+| CCM-WGFF | ccm-wgff | *TODO* | CCM Working Group on Fluid Flow
+| CCM-WGFT | ccm-wgft | *TODO* | CCM Working Group on Force and Torque
+| CCM-WGG  | ccm-wgg | *TODO* | CCM Working Group on Gravimetry
+| CCM-WGH  | ccm-wgh | *TODO* | CCM Working Group on Hardness
+| CCM-WGM  | ccm-wgm | *TODO* | CCM Working Group on Mass
+| CCM-WGPV | ccm-wgpv | *TODO* | CCM Working Group on Pressure and Vacuum
+| CCM-WGS  | ccm-wgs | *TODO* | CCM Working Group on Strategy and MRA coordination
+
+4+|
+4+| _Working groups: CCPR_
+| CCPR-WG-CMC | ccpr-wg-cmc | *TODO* | CCPR Working Group on CMCs
+| CCPR-WG-KC  | ccpr-wg-kc | *TODO* | CCPR Working Group on Key Comparisons
+| CCPR-WG-SP  | ccpr-wg-sp | *TODO* | CCPR Working Group on Strategic Planning
+
+4+|
+4+| _Working groups: CCQM_
+
+| CCQM-ah-WG-Mole | ccqm-ah-wg-mole | *TODO* | CCQM ad hoc Working Group on the Mole
+| CCQM-CAWG | ccqm-cawg | *TODO* | CCQM Working Group on Cell Analysis
+| CCQM-EAWG | ccqm-eawg | *TODO* | CCQM Working Group on Electrochemical Analysis
+| CCQM-GAWG | ccqm-gawg | *TODO* | CCQM Working Group on Gas Analysis
+| CCQM-IAWG | ccqm-iawg | *TODO* | CCQM Working Group on Inorganic Analysis
+| CCQM-IRWG | ccqm-irwg | *TODO* | CCQM Working Group on Isotope Ratios
+| CCQM-KCWG | ccqm-kcwg | *TODO* | CCQM WG on Key Comparisons and CMC Quality
+| CCQM-NAWG | ccqm-nawg | *TODO* | CCQM Working Group on Nucleic Acid Analysis
+| CCQM-OAWG | ccqm-oawg | *TODO* | CCQM Working Group on Organic Analysis
+| CCQM-PAWG | ccqm-pawg | *TODO* | CCQM Working Group on Protein Analysis
+| CCQM-SAWG | ccqm-sawg | *TODO* | CCQM Working Group on Surface Analysis
+| CCQM-SPWG | ccqm-spwg | *TODO* | CCQM Strategic Planning Working Group
+
+
+4+|
+4+| _Task groups: CCQM_
+
+| CCQM-TG-PANDEMIC | ccqm-tg-pandemic | *TODO* | CCQM Task Group on Infectious Disease Diagnostics and Metrology for Pandemic Preparedness
+
+
+4+|
+4+| _Sections: CCRI_
+| CCRI(I) | ccri-i | *TODO* | CCRI Section I: X- and gamma rays, charged particles
+| CCRI(II) | ccri-ii | *TODO* | CCRI Section II: Measurement of radionuclides
+| CCRI(III) | ccri-iii | *TODO* | CCRI Section III: Neutron measurements
+
+4+|
+4+| _Working groups: CCRI_
+| CCEM-CCRI-TG-LCM | ccem-ccri-tg-lcm | *TODO* | CCEM-CCRI Task Group - Low Current Measurement
+| CCRI-COMWG | ccri-comwg | *TODO* | CCRI Communication Working Group
+| CCRI-RMOWG | ccri-rmowg | *TODO* | CCRI RMO Working Group on IR CMCs
+| CCRI-BSWG(I) | ccri-bswg(I) | *TODO* | CCRI Section I: Brachytherapy Standards Working Group
+| CCRI-KCWG(I) | ccri-kcwg(I) | *TODO* | CCRI Section I: Key Comparisons Working Group
+| CCRI-KCWG(II) | ccri-kcwg(II) | *TODO* | CCRI Section II: Key Comparisons Working Group
+| CCRI-RTWG | ccri-rtwg | *TODO* | CCRI Radionuclide Therapy and Quantitative Imaging Working Group
+| CCRI-SWG | ccri-swg | *TODO* | CCRI ad hoc Working Group on Strategy
+| CCRI-TG-RS | ccri-tg-rs | *TODO* | CCRI Task Group on radioactive sources and alternative technologies
+
+4+|
+4+| _Working groups: CCT_
+| CCT-TG-Dig | cct-tg-dig | *TODO* | CCT Task Group on Digitalization
+| CCT-TG-ThQ | cct-tg-thq | *TODO* | CCT Task Group for Thermophysical Quantities
+| CCT-WG-CMC | cct-wg-cmc | *TODO* | CCT Working Group for Calibration and Measurement Capabilities
+| CCT-WG-CTh | cct-wg-cth | *TODO* | CCT Working Group for Contact Thermometry
+| CCT-WG-Env | cct-wg-env | *TODO* | CCT Working Group for Environment
+| CCT-WG-Hu  | cct-wg-hu | *TODO* | CCT Working Group for Humidity
+| CCT-WG-KC  | cct-wg-kc | *TODO* | CCT Working Group for Key Comparisons
+| CCT-WG-NCTh | cct-wg-ncth | *TODO* | CCT Working Group for Non-Contact Thermometry
+| CCT-WG-SP  | cct-wg-sp | *TODO* | CCT Working Group for Strategic Planning
+
+
+4+|
+4+| _Working groups: CCTF_
+| CCL-CCTF-WGFS | ccl-cctf-wgfs | *TODO* | CCL-CCTF Working Group on Frequency Standards
+| CCTF-WG-ALGO | cctf-wg-algo | *TODO* | CCTF Working Group on Time Scale Algorithms
+| CCTF-WGATFT | cctf-wgatft | *TODO* | CCTF Working Group on Coordination of the Development of Advanced Time and Frequency Transfer Techniques
+| CCTF-WGGNSS | cctf-wggnss | *TODO* | CCTF Working Group on GNSS Time Transfer
+| CCTF-WGMRA | cctf-wgmra | *TODO* | CCTF Working Group on the CIPM MRA
+| CCTF-WGPSFS | cctf-wgpsfs | *TODO* | CCTF Working Group on Primary and Secondary Frequency Standards
+| CCTF-WGSP | cctf-wgsp | *TODO* | CCTF Working Group on Strategic Planning
+| CCTF-WGTAI | cctf-wgtai | *TODO* | CCTF Working Group on TAI
+| CCTF-WGTWSTFT | cctf-wgtwstft | *TODO* | CCTF Working Group on Two-Way Satellite Time and Frequency Transfer
+
+4+|
+4+| _Working groups: CCU_
+| CCU-TG-ADQSIB | ccu-tg-adqsib | *TODO* | CCU Task Group on angle and dimensionless quantities in the SI Brochure
+| CCU-WG-CMT | ccu-wg-cmt | *TODO* | CCU Working Group on Core Metrological Terms
+| CCU-WG-CMT-FG | ccu-wg-cmt-fg | *TODO* | CCU Working Group on Core Metrological Terms Focus Group
+| CCU-WG-S | ccu-wg-s | *TODO* | CCU Working Group on Strategy
+
+4+|
+4+| _Working groups: JCGM_
+| JCGM-WG1 | jcgm-wg1 | *TODO* | JCGM Working Group on the Expression of Uncertainty in Measurement
+| JCGM-WG2 | jcgm-wg2 | *TODO* | JCGM Working Group on the International Vocabulary of Metrology
+
+4+|
+4+| _Working groups: JCTLM_
+| JCTLM-DBWG | jctlm-dbwg | *TODO* | JCTLM Database Working Group
+| JCTLM-TEPWG | jctlm-tepwg | *TODO* | JCTLM Working Group on Traceability: Education and Promotion
+| JCTLM-TF-RMSI | jctlm-tf-rmsi | *TODO* | JCTLM Task Force on Reference Measurement System Implementation
+
+|===
+
 [bibliography]
 == References
 
 * [[[bipm,BIPM SI Brochure]]] BIPM, The International System of Units (SI Brochure) [9th edition, 2019], https://www.bipm.org/en/publications/si-brochure/.
 
 * [[[iso690,ISO 690:2021]]]
+
+* [[[rfc-8141,IETF RFC 8141]]]
