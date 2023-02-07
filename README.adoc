@@ -1,0 +1,62 @@
+= BIPM Editor Guides (WARNING: DRAFT)
+
+WARNING: DO NOT USE THESE FOR ANY OFFICIAL PURPOSE. These documents are under
+development -- authoritative documents can be found on the
+https://www.bipm.org[BIPM website].
+
+image:https://github.com/metanorma/bipm-editor-guides/actions/workflows/docker.yml/badge.svg["Publish", link="https://github.com/metanorma/bipm-editor-guides/actions/workflows/docker.yml"]
+image:https://github.com/metanorma/bipm-editor-guides/actions/workflows/generate.yml/badge.svg["Build", link="https://github.com/metanorma/bipm-editor-guides/actions/workflows/generate.yml"]
+
+Published components are available here:
+
+* https://metanorma.github.io/bipm-editor-guides/[BIPM Editor Guides (DRAFT DOCUMENTS)]
+
+
+== LICENSE
+
+This work item belongs to the https://www.bipm.org[BIPM].
+
+Official BIPM documents are distributed under the
+https://creativecommons.org/licenses/by/3.0/igo/[Creative Commons Attribution 3.0 IGO License].
+
+
+== Purpose
+
+This repository holds editorial guides under development intended for BIPM
+authors and editors.
+
+== Fetching the document
+
+[source,sh]
+----
+git clone https://github.com/metanorma/bipm-editor-guides/
+----
+
+
+== Installing build tools
+
+See https://www.metanorma.org/install/
+
+
+== Building the documents
+
+=== Command
+
+Run the following command to build the full collection of the documents.
+
+[source,sh]
+----
+metanorma site generate --agree-to-terms
+----
+
+=== Outputs
+
+The following outputs will be built:
+
+Component index:: `site/index.html`
+Component outputs:: under `site/documents/` (HTML, PDF, MN S/P XML)
+
+
+== License
+
+Content copyright BIPM. Other tools copyright Ribose.

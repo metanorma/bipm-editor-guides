@@ -1,0 +1,9 @@
+---
+metanorma:
+  source:
+    files:
+    - sources/bipm-outcomes-en.adoc
+
+  collection:
+    organization: "BIPM - Bureau International des Poids et Mesures"
+    name: "WARNING: DRAFT DOCUMENTS - Editor resources"
