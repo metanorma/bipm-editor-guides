@@ -1,10 +1,10 @@
-= Guide to references to BIPM information resources
+= Guide to referencing BIPM information resources
 :edition: 1
 :copyright-year: 2023
 :revdate: 2023-02-08
 :language: en
-:title-en: Guide to references to BIPM information resources
-:title-fr: Guide de référence aux ressources d'information du BIPM
+:title-en: Guide to referencing BIPM information resources
+:title-fr: Guide de référencement des ressources d'information du BIPM
 :doctype: guide
 :docnumber: BIPM 1010
 :committee-en: International Bureau of Weights and Measures
