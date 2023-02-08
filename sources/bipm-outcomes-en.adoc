@@ -1,10 +1,10 @@
-= Identifiers for BIPM information resources
+= Guide to references to BIPM information resources
 :edition: 1
-:copyright-year: 2022
-:revdate: 2022-11-08
+:copyright-year: 2023
+:revdate: 2023-02-08
 :language: en
-:title-en: Identifiers for BIPM information resources
-:title-fr: Identifiants pour les ressources d'information du BIPM
+:title-en: Guide to references to BIPM information resources
+:title-fr: Guide de référence aux ressources d'information du BIPM
 :doctype: guide
 :docnumber: BIPM 1010
 :committee-en: International Bureau of Weights and Measures
@@ -36,12 +36,12 @@ information resources, for situations in French, English or as bi-lingual
 references.
 
 
-[bibliography]
-== Normative references
 
 == Terms and definitions
 
-=== information resource
+=== Information resources
+
+==== information resource
 
 work manifestation or item in physical or digital form or any other asset that
 contributes to human knowledge
@@ -50,55 +50,146 @@ NOTE: Information resource can refer to an asset, a record, a dataset, a
 document or a component part of a document.
 
 [.source]
-<<iso690,clause=3.20>>
+<<iso-690,clause=3.20>>
 
-=== outcome
+==== publication
+
+message or document offered for general distribution or sale and usually
+produced in multiple copies
+
+NOTE: In this document, the term "publication" is used for the
+information resources to which the references will be added by authors.
+
+[.source]
+<<iso-690,clause=3.34>>
+
+==== brochure
+
+authoritative {{publication}} of the BIPM
+
+[example]
+SI Brochure.
+
+==== mise en pratique
+alt:[MEP]
+
+{{publication,publications}} prepared by the relevant
+{{Consultative Committee,Consultative Committees}} and published by the BIPM
+
+NOTE: mises en pratique may be revised more frequently than the SI Brochure.
+
+==== guide
+
+publication that offers guidance on a particular topic
+
+==== monographie
+
+publication of the BIPM that offers insights into one particular topic
+
+
+==== working party note
+alt:[WPN]
+
+publication of the BIPM developed by working groups or working parties
+offering informative information about a particular topic
+
+==== strategy document
+
+publication of committees and groups documenting the strategy of the committee
+or group
+
+==== meeting document
+
+publication of committees and groups documenting topics of concern of a meeting
+
+==== proceeding / meeting report
+
+publication of committees and groups documenting details of an occurred meeting,
+such as minutes and outcomes
+
+==== workshop
+
+meeting that addresses a particular topic
+
+
+==== outcome
 
 statement of action originating from a meeting or a group
 
 [example]
 Resolution, decision or statement are different types of meeting outcomes.
 
-=== decision
+==== decision
 
 {{outcome}} documenting a decision
 
-=== resolution
+==== resolution
 
 {{outcome}} documenting a resolution
 
-=== recommendation
+==== recommendation
 
 {{outcome}} documenting a recommendation
 
-=== statement
+==== statement
 
 {{outcome}} documenting a statement
 
 
-=== CIPM Consultative Committee
 
-committee as part of CIPM with designated responsibilities in a particular
+=== Bodies
+
+==== committee
+
+group of appointed members tasked to achieve a specific mission by an authoritative body
+
+
+==== consultative committee
+
+{{committee}} as part of CIPM with designated responsibilities in a particular
 metrology domain
 
 [example]
 CCM.
 
-=== joint committee
+==== joint committee
 
-committee composed of BIPM representatives and one or more partner organizations
+{{committee}} composed of BIPM representatives and one or more partner organizations
 
 [example]
 JCGM.
 
-=== CIPM
+==== working group
 
-International Committee for Weights and Measures
+group under a {{committee}} appointed to achieve specific tasks through operation by
+consensus, reports and gives recommendations
 
-=== CGPM
+==== ad hoc working group
 
-General Conference on Weights and Measures
+{{working group}} under a non-permanent mandate
 
+==== discussion group
+
+group under a {{committee}} appointed to discuss issues
+
+==== task group
+
+group under a {{committee}} appointed to achieve a specific task
+
+
+==== CIPM
+
+Comité international des poids et mesures / International Committee for Weights and Measures
+
+==== CGPM
+
+Conférence générale des poids et mesures / General Conference on Weights and Measures
+
+==== CIPM MRA
+
+framework through which National Metrology Institutes demonstrate the
+international equivalence of their measurement standards and mutual acceptance
+of the calibration and measurement certificates they issue
 
 
 == Types of information resources
@@ -112,15 +203,27 @@ citable, including the following:
 ** Meeting outcomes (decisions, resolutions, recommendations, statement)
 
 * Publications
-** SI Brochure
+
+** Convention
+*** The Metre Convention and Annexed Regulations
+
+** Brochure
+*** SI Brochure
+
 ** mises en pratique
+*** Recommended values of standard frequencies
+
+** Guides
+*** JCGM Publications: Guides in Metrology
+*** Guidance documents on the CIPM MRA
+
 ** Rapports
 ** Monographies
-** JCGM Publications: Guides in Metrology
-** Recommended values of standard frequencies
+
+** Policy documents
 ** Strategy documents
 ** Meeting documents
-** Guidance documents (e.g. Guidance documents on the CIPM MRA)
+** Working party note
 
 * Entities
 ** Committees
@@ -144,25 +247,216 @@ including:
 
 NOTE: The full list of groups are available at <<bipm-groups-codes>>.
 
+// NOTE: Document types include:
+// brochure mise-en-pratique rapport monographie guide
+// meeting-report technical-report working-party-note strategy
+// cipm-mra resolutions
+
 // == Identifiers and citation syntax for meetings
 
 // === General
 
-
-
-== Identifiers and citation syntax for meeting proceedings or meeting reports
+== Principles of referencing
 
 === General
 
-This document defines two types of citation syntaxes for meeting proceedings or
-meeting reports:
-
-* full-length syntax: to be used when referencing from a bibliographic section;
-
-* short syntax: to be used as a shorthand reference within text.
+This clause describes the principles of referencing.
 
 
-=== Syntax components
+=== Specificity of references
+
+When referencing an information resource, care should be taken to refer to the
+exact information resource at an appropriate granularity.
+
+Information resources can be arranged in a hierarchical manner, such as a
+proceedings publication containing many meeting outcomes.
+
+When referencing a meeting outcome, one can refer to the meeting outcome
+independently or to the meeting outcome as documented in the proceedings. In
+this case, the reference should be made to the independent meeting outcome, not
+the one contained.
+
+Always prefer referencing the exact information resource over referencing
+an indirect information resource.
+
+
+=== Language-specific or language-independent settings
+
+BIPM is a bi-lingual organization, and most publications are issued in both
+languages.
+
+References can be made in single language or language-independent settings:
+
+* When a reference points to a publication of a particular language, the
+reference is made towards the publication's text in that particular language;
+
+* When a reference is made without specification of a particular language, the
+reference is made towards the publication described in both languages.
+
+A language-independent reference is preferred over a language-specific reference.
+
+This preference is not related to the language used in the medium carrying the
+citation.
+
+[example]
+In an English publication, it is still preferred to refer to the
+language-independent decision instead of the English decision.
+
+
+== Information resource reference types
+
+
+=== Publication identifiers
+
+The publication identifier is used for:
+
+* referencing a publication within textual content;
+* unique identification of a publication, such as in being a bibliographic
+citation tag.
+
+
+=== Bibliographic citations
+
+The bibliographic citation reference format is used for referencing a
+publication in a bibliography or references section.
+
+The BIPM adopts <<iso-690>> for its citation reference format.
+
+The general pattern is as follows:
+
+[source%unnumbered]
+----
+{author}. _{title}_. {Available at: {location}}
+----
+
+
+
+=== Document object identifiers (DOI)
+
+The Digital Object Identifier (DOI) is an identifier defined in <<iso-26324>>
+for the unique referencing of information resources
+through the DOI name resolution system operated by the DOI Foundation.
+
+The DOI identifier is a case-insensitive string under the namespace of
+the BIPM's organization DOI code.
+
+
+The pattern of the DOI is as follows.
+
+[source%unnumbered]
+----
+doi:10.xxxxx/{item-doi}
+----
+
+Where,
+
+`item-doi`:: the DOI name identifying the information resource.
+
+
+=== Uniform resource names (URNs)
+
+Uniform resource names (URNs) are defined in <<rfc-8141>> as unique identifiers
+for information resources.
+
+BIPM defines a URN syntax to identify the multitude of information resources it
+publishes.
+
+NOTE: An information resources can contain one or more information resources.
+Each information resource can be directly identified by exactly one URN.
+
+EDITOR: BIPM needs to register its URN scheme with IETF.
+
+The pattern of the URN for a BIPM published information resource is as
+follows.
+
+[source%unnumbered]
+----
+urn:bipm:{version}:{group}:{venue-type}:{venue-id}:{type}:{identifier}:{date}
+----
+
+Where,
+
+version:: identifies the version of the URN pattern. The syntax described in
+this document is considered as `v1`. The only allowed value is `v1`.
+
+group:: group responsible for the creation of the information resource. Values
+available at <<bipm-groups-codes>>.
+
+venue-type:: (optional) type of venue where this information resource is produced
+
+venue-id:: (optional) identifier of the venue where this information resource is produced
+
+type:: type of information resource
+
+identifier:: unique identifier of the information resource within scope of the
+information resource type
+
+date:: date of publication of the information resource
+
+
+
+== Meeting proceedings / meeting reports
+
+=== General
+
+This document defines reference formats for meeting proceedings or
+meeting reports.
+
+
+=== Publication identifier
+
+The general pattern is as follows:
+
+[source%unnumbered]
+----
+{group-short-name} {meeting-sequence} {venue} ({year})
+----
+
+Where,
+
+`group-short-name`:: is the short name of the publishing group.
++
+[example]
+CIPM.
+
+`meeting-sequence`:: is the sequence number of the subject meeting in ordinal format.
++
+[example]
+`111e` in French.
++
+[example]
+`111th` in English.
+
+`venue`:: is the French or English name of the gathering.
++
+[example]
+"réunion" in French.
++
+[example]
+"meeting" in English.
+
+`year`:: year of the subject meeting.
++
+[example]
+`2022`.
+
+
+[example]
+CIPM 111th meeting (2022).
+
+[example]
+CIPM 111e réunion (2022)
+
+
+=== Bibliographic citations
+
+==== General
+
+This document defines the citation syntax for meeting proceedings or
+meeting reports to be used when referencing from a bibliographic section.
+
+
+==== Syntax components
 
 In the following clauses, these components are used to describe particular
 parts of the reference syntax.
@@ -180,8 +474,6 @@ parts of the reference syntax.
 [example]
 https://www.bipm.org/documents/20126/30876792/CGPM26.pdf/9db96c32-a986-e32a-09f9-3ed7e6c77cf7
 
-
-=== Full-length
 
 ==== Single language: French
 
@@ -241,80 +533,13 @@ Available at: https://www.bipm.org/documents/20126/30876792/CGPM26.pdf/9db96c32-
 NOTE: In the full-length syntax, the year of the meeting is not given.
 
 
-=== Short
-
-The general pattern is as follows:
-
-[source%unnumbered]
-----
-{group-short-name} {meeting-sequence} {venue} -- {outcomes-type} ({year})
-----
-
-Where,
-
-`group-short-name`:: is the short name of the publishing group.
-+
-[example]
-CIPM.
-
-`meeting-sequence`:: is the sequence number of the subject meeting in ordinal format.
-+
-[example]
-`111e` in French.
-+
-[example]
-`111th` in English.
-
-`venue`:: is the French or English name of the gathering.
-+
-[example]
-"réunion" in French.
-+
-[example]
-"meeting" in English.
-
-`outcomes-type`:: type of outcomes.
-+
-[example]
-"Décisions" in French.
-+
-[example]
-"Decisions" in English.
-
-`year`:: year of the subject meeting.
-+
-[example]
-`2022`.
 
 
-[example]
-CIPM 111th meeting -- Decisions (2022)
-
-[example]
-CIPM 111e réunion -- Décisions (2022)
-
-
-
-== Identifiers and citation syntax for individual meeting outcomes
+== Meeting outcomes: singular
 
 === General
 
-This document defines two types of citation syntaxes for individual BIPM
-outcomes:
-
-* full-length syntax: to be used when referencing within textual content;
-
-* short syntax: to be used as a shorthand reference within and in a
-bibliographic reference list.
-
-
-Citations can be made in single language or language-independent settings:
-
-* When a citation points to an outcome of a particular language, the reference
-is made towards the outcome's text in that particular language;
-
-* When a citation is made without reference to a particular language, the
-reference is made towards the outcome described in both languages.
+BIPM outcomes are outcomes of committees or any consultative group.
 
 
 === Syntax components
@@ -329,7 +554,105 @@ parts of the reference syntax.
 `year`:: is the year when the outcome was published
 
 
-=== Full-length syntax
+=== Publication identifier
+
+==== General
+
+The publication identifer is used for referencing in a bibliography or outside
+content text, because they are unambiguous and easily understandable
+identifiers.
+
+
+==== Syntax components
+
+In the following clauses, these components are used to describe particular
+parts of the reference syntax.
+
+`resource-type-short`:: is the English or French name of the outcome type in short
+
+The `resource-type-short` value can be one of:
+
+`RES`:: Resolution / Résolution
+`REC`:: Recommendation / Recommandation
+`DEC`:: Decision / Décision
+`DECL`:: Déclaration / Statement
+
+
+==== Single language: French
+
+The pattern is as follows:
+
+[source%unnumbered]
+----
+{group-name} {resource-type-short} {resource-specific-id} ({year}, F)
+----
+
+[example]
+CGPM RES 1 (1889, F).
+
+[example]
+CCDS REC 2 (1970, F).
+
+[example]
+CGPM RES 1 (2018, F).
+
+[example]
+CIPM DECN 111-10 (2022, F).
+
+[example]
+JCRB REC 43-1 (2021, F).
+
+
+==== Single language: English
+
+The pattern is as follows:
+
+[source%unnumbered]
+----
+{group-name} {resource-type-short} {resource-specific-id} ({year}, E)
+----
+
+[example]
+CGPM RES 1 (1889, E).
+
+[example]
+CCDS REC 2 (1970, E).
+
+[example]
+CGPM RES 1 (2018, E).
+
+[example]
+CIPM DECN 111-10 (2022, E).
+
+[example]
+JCRB REC 43-1 (2021, E).
+
+
+==== Language-independent
+
+[source%unnumbered]
+----
+{group-name} {resource-type-short} {resource-specific-id} ({year})
+----
+
+[example]
+CGPM RES 1 (1889).
+
+[example]
+CCDS REC 2 (1970).
+
+[example]
+CGPM RES 1 (2018).
+
+[example]
+CIPM DECN 111-10 (2022).
+
+[example]
+JCRB REC 43-1 (2021).
+
+
+
+=== Bibliographic citation
 
 ==== General
 
@@ -423,7 +746,7 @@ CIPM Decision 111-10 (2022).
 JCRB Recommendation 43-1 (2021).
 
 
-=== Language-independent
+==== Language-independent
 
 The pattern is as follows:
 
@@ -456,154 +779,7 @@ CIPM Decision 111-10 (2022) / Décision CIPM/111-10 (2022).
 [example]
 JCRB Recommendation 43-1 (2021) / Recommandation JCRB/43-1 (2021).
 
-
-=== Short syntax
-
-==== General
-
-The short syntax is used for referencing in a bibliography or outside content
-text, because they are unambiguous and easily understandable identifiers.
-
-
-==== Syntax components
-
-In the following clauses, these components are used to describe particular
-parts of the reference syntax.
-
-`resource-type-short`:: is the English or French name of the outcome type in short
-
-The `resource-type-short` value can be one of:
-
-`RES`:: Resolution / Résolution
-`REC`:: Recommendation / Recommandation
-`DEC`:: Decision / Décision
-`DECL`:: Déclaration / Statement
-
-
-==== Single language: French
-
-The pattern is as follows:
-
-[source%unnumbered]
-----
-{group-name} {resource-type-short} {resource-specific-id} ({year}, F)
-----
-
-[example]
-CGPM RES 1 (1889, F).
-
-[example]
-CCDS REC 2 (1970, F).
-
-[example]
-CGPM RES 1 (2018, F).
-
-[example]
-CIPM DECN 111-10 (2022, F).
-
-[example]
-JCRB REC 43-1 (2021, F).
-
-
-==== Single language: English
-
-The pattern is as follows:
-
-[source%unnumbered]
-----
-{group-name} {resource-type-short} {resource-specific-id} ({year}, E)
-----
-
-[example]
-CGPM RES 1 (1889, E).
-
-[example]
-CCDS REC 2 (1970, E).
-
-[example]
-CGPM RES 1 (2018, E).
-
-[example]
-CIPM DECN 111-10 (2022, E).
-
-[example]
-JCRB REC 43-1 (2021, E).
-
-
-==== Language-independent
-
-[source%unnumbered]
-----
-{group-name} {resource-type-short} {resource-specific-id} ({year})
-----
-
-[example]
-CGPM RES 1 (1889).
-
-[example]
-CCDS REC 2 (1970).
-
-[example]
-CGPM RES 1 (2018).
-
-[example]
-CIPM DECN 111-10 (2022).
-
-[example]
-JCRB REC 43-1 (2021).
-
-
-== Uniform resource names (URNs)
-
-=== General
-
-Uniform resource names (URNs) are defined in <<rfc-8141>> as unique identifiers
-for information resources.
-
-BIPM defines a URN syntax to identify the multitude of information resources it
-publishes.
-
-NOTE: An information resources can contain one or more information resources.
-Each information resource can be directly identified by exactly one URN.
-
-
-=== Syntax
-
-The pattern of the URN for a BIPM published information resource is as
-follows.
-
-[source%unnumbered]
-----
-urn:bipm:{version}:{group}:{venue-type}:{venue-id}:{type}:{identifier}:{date}
-----
-
-Where,
-
-version:: identifies the version of the URN pattern. The syntax described in
-this document is considered as `v1`. The only allowed value is `v1`.
-
-group:: group responsible for the creation of the information resource. Values
-available at <<bipm-groups-codes>>.
-
-venue-type:: type of venue where this information resource is produced
-
-venue-id:: identifier of the venue where this information resource is produced
-
-type:: type of information resource
-
-identifier:: unique identifier of the information resource within scope of the
-information resource type
-
-date:: date of publication of the information resource
-
-For the SI Brochure, it uses the following pattern:
-
-[source%unnumbered]
-----
-urn:bipm:v1:bipm:si-brochure:{number}
-----
-
-
+=== URN
 
 [example]
 https://www.bipm.org/en/committees/ci/cipm/95-2006/recommendation-1
@@ -623,11 +799,181 @@ Proceedings of the 26th CGPM (2018), 2019, p472
 `urn:bipm:v1:cgpm:meeting-26:2018:proceedings:2019`
 
 
+== Meeting outcomes: all
+
+=== General
+
+=== Syntax components
+
+=== Publication identifier
+
+The general pattern is as follows:
+
+[source%unnumbered]
+----
+{group-short-name} {meeting-sequence} {venue} -- {outcomes-type} ({year})
+----
+
+Where,
+
+`group-short-name`:: is the short name of the publishing group.
++
+[example]
+CIPM.
+
+`meeting-sequence`:: is the sequence number of the subject meeting in ordinal format.
++
+[example]
+`111e` in French.
++
+[example]
+`111th` in English.
+
+`venue`:: is the French or English name of the gathering.
++
+[example]
+"réunion" in French.
++
+[example]
+"meeting" in English.
+
+`outcomes-type`:: type of outcomes.
++
+[example]
+"Décisions" in French.
++
+[example]
+"Decisions" in English.
+
+`year`:: year of the subject meeting.
++
+[example]
+`2022`.
+
+
+[example]
+CIPM 111th meeting -- Decisions (2022)
+
+[example]
+CIPM 111e réunion -- Décisions (2022)
+
+
+=== Bibliographic citation
+
+=== URN
+
+
+
+== SI Brochure
+
+=== General
+
+The SI Brochure is the BIPM publication that defines the SI system.
+
+
+=== Publication identifier
+
+[example]
+"SI Brochure 9e".
+
+
+=== Bibliographic citation
+
+[example]
+"BIPM, The International System of Units (SI Brochure) [9th edition, 2019], https://www.bipm.org/en/publications/si-brochure/."
+
+=== URN
+
+For the SI Brochure, it uses the following pattern:
+
+[source%unnumbered]
+----
+urn:bipm:v1:bipm:si-brochure:{edition-number}
+----
+
+
+== Mise en pratique
+=== General
+=== Publication identifier
+=== Bibliographic citation
+=== URN
+
+== Guide
+=== General
+=== Publication identifier
+=== Bibliographic citation
+=== URN
+
+== Rapport
+=== General
+=== Publication identifier
+=== Bibliographic citation
+=== URN
+
+== Monographie
+=== General
+=== Publication identifier
+=== Bibliographic citation
+=== URN
+
+== Working party note
+=== General
+=== Publication identifier
+=== Bibliographic citation
+=== URN
+
+== Convention and its articles
+=== General
+
+[example]
+The Metre Convention and Annexed Regulations
+
+=== Publication identifier
+=== Bibliographic citation
+=== URN
+
+
+== Policy document
+=== General
+
+[example]
+Compendium of main rules and practices applicable to the BIPM, October 2018.
+
+=== Publication identifier
+=== Bibliographic citation
+=== URN
+
+== Strategy document
+=== General
+=== Publication identifier
+=== Bibliographic citation
+=== URN
+
+== Meeting document
+=== General
+=== Publication identifier
+=== Bibliographic citation
+=== URN
+
+== Entities
+=== General
+=== Publication identifier
+=== Bibliographic citation
+=== URN
+
+== Workshop
+=== General
+=== Publication identifier
+=== Bibliographic citation
+=== URN
+
+
+
 [appendix,obligation=informative]
 [[bipm-groups-codes]]
 == BIPM groups and codes
 
-.BIPM group names, identifiers and codes
+.Bodies and committees
 [cols="a,a,4a,4a"]
 |===
 | Identifier | Code | Name (fr) | Name (en)
@@ -635,9 +981,15 @@ Proceedings of the 26th CGPM (2018), 2019, p472
 | CIPM | cipm | Comité international des poids et mesures | International Committee for Weights and Measures
 | CGPM | cgpm | Conférence générale des poids et mesures | General Conference on Weights and Measures
 | BIPM | bipm | Secrétariat | Secretariat
+| CIPM MRA | cipm-mra | L'Arrangement de reconnaissance mutuelle du CIPM | CIPM Mutual Recognition Arrangement
 
-4+|
-4+| _CIPM CONSULTATIVE COMMITTEES_
+|===
+
+.CIPM consultative committees
+[cols="a,a,4a,4a"]
+|===
+| Identifier | Code | Name (fr) | Name (en)
+
 | CCAUV | ccauv | Comité consultatif de l'acoustique, des ultrasons et des vibrations | Consultative Committee for Acoustics, Ultrasound and Vibration
 | CCEM | ccem | Comité consultatif d'électricité et magnétisme | Consultative Committee for Electricity and Magnetism
 | CCL | ccl | Comité consultatif des longueurs | Consultative Committee for Length
@@ -649,13 +1001,24 @@ Proceedings of the 26th CGPM (2018), 2019, p472
 | CCTF | cctf | Comité consultatif du temps et des fréquences | Consultative Committee for Time and Frequency
 | CCU | ccu | Comité consultatif des unités | Consultative Committee for Units
 
-4+|
-4+| _JOINT COMMITTEES_
+|===
+
+.Joint committees
+[cols="a,a,4a,4a"]
+|===
+| Identifier | Code | Name (fr) | Name (en)
+
 | JCGM | jcgm | Comité commun pour les guides en métrologie | Joint Committee for Guides in Metrology
 | JCRB | jcrb | Comité mixte des organisations régionales de métrologie et du BIPM | Joint Committee of the Regional Metrology Organizations and the BIPM
 | JCTLM | jctlm | Comité commun pour la traçabilité en médecine de laboratoire | Joint Committee for Traceability in Laboratory Medicine
 
-4+|
+|===
+
+.Groups
+[cols="a,a,4a,4a"]
+|===
+| Identifier | Code | Name (fr) | Name (en)
+
 4+| _Working groups: CIPM_
 | CIPM-PFAB | cipm-pfab | *TODO* | BIPM Pension Fund Advisory Board
 | CIPM-SC-STRATEGY | cipm-sc-strategy | *TODO* | CIPM Sub-Committee on Strategy
@@ -682,7 +1045,6 @@ Proceedings of the 26th CGPM (2018), 2019, p472
 
 4+|
 4+| _Working groups: CCL_
-
 | CCL-TG-DIG | ccl-tg-dig | *TODO* | CCL Task Group on Digitalization
 | CCL-WG-MRA | ccl-wg-mra | *TODO* | CCL Working Group on the CIPM MRA
 | CCL-WG-N | ccl-wg-n | *TODO* | CCL Working Group on Dimensional Nanometrology
@@ -721,7 +1083,6 @@ Proceedings of the 26th CGPM (2018), 2019, p472
 
 4+|
 4+| _Working groups: CCQM_
-
 | CCQM-ah-WG-Mole | ccqm-ah-wg-mole | *TODO* | CCQM ad hoc Working Group on the Mole
 | CCQM-CAWG | ccqm-cawg | *TODO* | CCQM Working Group on Cell Analysis
 | CCQM-EAWG | ccqm-eawg | *TODO* | CCQM Working Group on Electrochemical Analysis
@@ -735,12 +1096,9 @@ Proceedings of the 26th CGPM (2018), 2019, p472
 | CCQM-SAWG | ccqm-sawg | *TODO* | CCQM Working Group on Surface Analysis
 | CCQM-SPWG | ccqm-spwg | *TODO* | CCQM Strategic Planning Working Group
 
-
 4+|
 4+| _Task groups: CCQM_
-
 | CCQM-TG-PANDEMIC | ccqm-tg-pandemic | *TODO* | CCQM Task Group on Infectious Disease Diagnostics and Metrology for Pandemic Preparedness
-
 
 4+|
 4+| _Sections: CCRI_
@@ -771,7 +1129,6 @@ Proceedings of the 26th CGPM (2018), 2019, p472
 | CCT-WG-KC  | cct-wg-kc | *TODO* | CCT Working Group for Key Comparisons
 | CCT-WG-NCTh | cct-wg-ncth | *TODO* | CCT Working Group for Non-Contact Thermometry
 | CCT-WG-SP  | cct-wg-sp | *TODO* | CCT Working Group for Strategic Planning
-
 
 4+|
 4+| _Working groups: CCTF_
@@ -808,8 +1165,11 @@ Proceedings of the 26th CGPM (2018), 2019, p472
 [bibliography]
 == References
 
-* [[[bipm,BIPM SI Brochure]]] BIPM, The International System of Units (SI Brochure) [9th edition, 2019], https://www.bipm.org/en/publications/si-brochure/.
+* [[[bipm-si-brochure,BIPM SI Brochure]]] BIPM, The International System of Units (SI Brochure) [9th edition, 2019], https://www.bipm.org/en/publications/si-brochure/.
 
-* [[[iso690,ISO 690:2021]]]
+* [[[iso-690,ISO 690:2021]]]
+
+* [[[iso-26324,ISO 26324:2022]]]
 
 * [[[rfc-8141,IETF RFC 8141]]]
+
