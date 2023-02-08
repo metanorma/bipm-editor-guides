@@ -199,38 +199,39 @@ citable, including the following:
 
 * Relevant to meetings
 ** Meetings
-** Proceedings / Meeting reports
-** Meeting outcomes (decisions, resolutions, recommendations, statement)
+** Proceedings / Meeting reports (<<ref-proceedings>>)
+** Meeting outcomes (decisions, resolutions, recommendations, statement) (<<ref-outcomes-singular>>, <<ref-outcomes-all>>)
 
 * Publications
 
-** Convention
+** Convention (<<ref-convention>>)
 *** The Metre Convention and Annexed Regulations
 
-** Brochure
+** Brochure (<<ref-brochure>>)
 *** SI Brochure
 
-** mises en pratique
+** mises en pratique (<<ref-mep>>)
 *** Recommended values of standard frequencies
 
-** Guides
+** Guides (<<ref-guide>>)
 *** JCGM Publications: Guides in Metrology
 *** Guidance documents on the CIPM MRA
 
-** Rapports
-** Monographies
+** Rapports (<<ref-rapport>>)
+** Monographies (<<ref-monographie>>)
+** Working party note (<<ref-wpn>>)
 
+* Internal documents (<<ref-internal>>)
 ** Policy documents
 ** Strategy documents
 ** Meeting documents
-** Working party note
 
-* Entities
+* Entities (<<ref-entity>>)
 ** Committees
 ** Working groups
 ** Discussion groups
 
-* Workshops
+* Workshops (<<ref-workshop>>)
 
 These information resources are published by various entities within the BIPM,
 including:
@@ -394,7 +395,7 @@ information resource type
 date:: date of publication of the information resource
 
 
-
+[[ref-proceedings]]
 == Meeting proceedings / meeting reports
 
 === General
@@ -534,7 +535,7 @@ NOTE: In the full-length syntax, the year of the meeting is not given.
 
 
 
-
+[[ref-outcomes-singular]]
 == Meeting outcomes: singular
 
 === General
@@ -799,6 +800,7 @@ Proceedings of the 26th CGPM (2018), 2019, p472
 `urn:bipm:v1:cgpm:meeting-26:2018:proceedings:2019`
 
 
+[[ref-outcomes-all]]
 == Meeting outcomes: all
 
 === General
@@ -863,7 +865,20 @@ CIPM 111e réunion -- Décisions (2022)
 === URN
 
 
+[[ref-convention]]
+== Convention and its articles
+=== General
 
+[example]
+The Metre Convention and Annexed Regulations
+
+=== Publication identifier
+=== Bibliographic citation
+=== URN
+
+
+
+[[ref-brochure]]
 == SI Brochure
 
 === General
@@ -891,76 +906,66 @@ For the SI Brochure, it uses the following pattern:
 urn:bipm:v1:bipm:si-brochure:{edition-number}
 ----
 
-
+[[ref-mep]]
 == Mise en pratique
 === General
 === Publication identifier
 === Bibliographic citation
 === URN
 
+[[ref-guide]]
 == Guide
 === General
 === Publication identifier
 === Bibliographic citation
 === URN
 
+[[ref-rapport]]
 == Rapport
 === General
 === Publication identifier
 === Bibliographic citation
 === URN
 
+[[ref-monographie]]
 == Monographie
 === General
 === Publication identifier
 === Bibliographic citation
 === URN
 
+[[ref-wpn]]
 == Working party note
 === General
 === Publication identifier
 === Bibliographic citation
 === URN
 
-== Convention and its articles
+
+[[ref-internal]]
+== Internal documents
 === General
+
+* Policy document
+* Strategy document
+* Meeting document
 
 [example]
-The Metre Convention and Annexed Regulations
+Policy document: Compendium of main rules and practices applicable to the BIPM, October 2018.
 
 === Publication identifier
 === Bibliographic citation
 === URN
 
 
-== Policy document
-=== General
-
-[example]
-Compendium of main rules and practices applicable to the BIPM, October 2018.
-
-=== Publication identifier
-=== Bibliographic citation
-=== URN
-
-== Strategy document
+[[ref-entity]]
+== Entity
 === General
 === Publication identifier
 === Bibliographic citation
 === URN
 
-== Meeting document
-=== General
-=== Publication identifier
-=== Bibliographic citation
-=== URN
-
-== Entities
-=== General
-=== Publication identifier
-=== Bibliographic citation
-=== URN
-
+[[ref-workshop]]
 == Workshop
 === General
 === Publication identifier
