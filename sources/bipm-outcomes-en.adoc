@@ -74,7 +74,7 @@ SI Brochure.
 alt:[MEP]
 
 {{publication,publications}} prepared by the relevant
-{{Consultative Committee,Consultative Committees}} and published by the BIPM
+{{consultative committee,consultative committees}} and published by the BIPM
 
 NOTE: mises en pratique may be revised more frequently than the SI Brochure.
 
