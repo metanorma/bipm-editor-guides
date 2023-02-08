@@ -2,7 +2,7 @@
 metanorma:
   source:
     files:
-    - sources/bipm-outcomes-en.adoc
+    - sources/bipm-references-en.adoc
 
   collection:
     organization: "BIPM - Bureau International des Poids et Mesures"
