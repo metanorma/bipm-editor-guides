@@ -573,10 +573,10 @@ parts of the reference syntax.
 
 The `resource-type-short` value can be one of:
 
-`RES`:: Resolution / Résolution
-`REC`:: Recommendation / Recommandation
-`DEC`:: Decision / Décision
-`DECL`:: Déclaration / Statement
+`RES`:: (French) Résolution / (English) Resolution
+`REC`:: (French) Recommandation (French) / (English) Recommendation
+`DECN`:: (French) Décision / (English) Decision
+`DECL`:: (French) Déclaration / (English) Statement
 
 
 ==== Single language: French
