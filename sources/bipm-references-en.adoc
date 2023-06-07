@@ -420,13 +420,14 @@ Where,
 [example]
 CIPM.
 
-`meeting-sequence`:: is the sequence number of the subject meeting in ordinal format.
+`meeting-sequence`:: is the sequence number of the subject meeting in ordinal format,
+using an appropriate ordinal.
 +
 [example]
-`111e` in French.
+`111e` in French. (Not: `111`. Use feminine ordinals, the noun qualified (venue) is the feminine _réunion_.)
 +
 [example]
-`111th` in English.
+`111th` in English. (Not: `111`.)
 
 `venue`:: is the French or English name of the gathering.
 +
@@ -823,13 +824,14 @@ Where,
 [example]
 CIPM.
 
-`meeting-sequence`:: is the sequence number of the subject meeting in ordinal format.
+`meeting-sequence`:: is the sequence number of the subject meeting in ordinal format,
+using an appropriate ordinal.
 +
 [example]
-`111e` in French.
+`111e` in French.  (Not: `111`. Use feminine ordinals, the noun qualified (venue) is the feminine _réunion_.)
 +
 [example]
-`111th` in English.
+`111th` in English. (Not: `111`.)
 
 `venue`:: is the French or English name of the gathering.
 +
