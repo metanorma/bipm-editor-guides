@@ -890,9 +890,25 @@ The SI Brochure is the BIPM publication that defines the SI system.
 
 === Publication identifier
 
-[example]
-"SI Brochure 9e".
+The pattern is as follows:
 
+[source%unnumbered]
+----
+SI Brochure {edition} ({update-year}) ({language})
+----
+
+where,
+
+`edition` is the number of the edition
+
+`update-year` is the optional year of update
+
+`language` is the identifier of the language of the edition being identifier, `E` or `F`.
+
+[example]
+* "SI Brochure 9".
+* "SI Brochure 9 (E)".
+* "SI Brochure 9 (2024) (F)".
 
 === Bibliographic citation
 
