@@ -796,7 +796,7 @@ International Committee for Weights and Measures. _CIPM Decision 111-10_. Availa
 
 ==== Language-independent
 
-The pattern for title is as follows:
+The pattern for the title is as follows:
 
 [source%unnumbered]
 ----
