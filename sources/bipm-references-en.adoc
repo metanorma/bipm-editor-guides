@@ -961,7 +961,7 @@ International Committee for Weights and Measures. _CIPM 111th meeting -- Decisio
 
 ==== Language-independent
 
-The bibliographic citation reference format is to be adopted to the language of
+The bibliographic citation reference format is to be adapted to the language of
 the publication.
 
 
