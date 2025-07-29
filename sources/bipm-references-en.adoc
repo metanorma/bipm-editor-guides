@@ -330,6 +330,12 @@ The general pattern is as follows:
 {author}. _{title}_. {Available at: {location}}
 ----
 
+Where,
+
+`author`:: is the author of the publication, which is the organization or committee
+responsible for the publication.
+
+`title`:: is the title of the publication, which is the name of the publication.
 
 
 === Document object identifiers (DOI)
@@ -467,7 +473,8 @@ parts of the reference syntax.
 
 `group-short-name`:: is the short name of the publishing group.
 
-`proceedings-name`:: is the English or French name of the proceedings publication or report of the subject meeting.
+`proceedings-name`:: is the English or French name of the proceedings
+publication or report of the subject meeting.
 
 `meeting-sequence`:: is the sequence number of the subject meeting in ordinal format.
 
@@ -493,14 +500,15 @@ Where,
 [example]
 "Conférence générale des poids et mesures." in French.
 
-`proceedings-name`:: is the English or French name of the proceedings publication or report of the subject meeting.
+`proceedings-name`:: is the English or French name of the proceedings
+publication or report of the subject meeting.
 +
 [example]
 "Comptes rendus de la 26e réunion de la CGPM." in French.
 
 [example]
 Conférence générale des poids et mesures.
-Comptes rendus de la 26e réunion de la CGPM.
+_Comptes rendus de la 26e réunion de la CGPM._
 Available at: https://www.bipm.org/documents/20126/30876792/CGPM26.pdf/9db96c32-a986-e32a-09f9-3ed7e6c77cf7
 
 NOTE: In the full-length syntax, the year of the meeting is not given.
@@ -522,14 +530,15 @@ Where,
 [example]
 "General Conference on Weights and Measures." in English.
 
-`proceedings-name`:: is the English or French name of the proceedings publication or report of the subject meeting.
+`proceedings-name`:: is the English or French name of the proceedings
+publication or report of the subject meeting.
 +
 [example]
 "Proceedings of the 26th meeting of the CGPM." in English.
 
 [example]
 General Conference on Weights and Measures.
-Proceedings of the 26th meeting of the CGPM.
+_Proceedings of the 26th meeting of the CGPM._
 Available at: https://www.bipm.org/documents/20126/30876792/CGPM26.pdf/9db96c32-a986-e32a-09f9-3ed7e6c77cf7
 
 NOTE: In the full-length syntax, the year of the meeting is not given.
@@ -664,7 +673,7 @@ identify an information resource with adequate readability.
 [[full-french]]
 ==== Single language: French
 
-The general pattern is as follows:
+The general pattern for the title is as follows:
 
 [source%unnumbered]
 ----
@@ -712,11 +721,30 @@ Décision CIPM/111-10 (2022).
 Recommandation JCRB/43-1 (2021).
 
 
+The bibliographic citation reference format has this general pattern:
+
+[source%unnumbered]
+----
+{group-name}. _{title}_. Disponible à: {location}
+----
+
+Where,
+
+`group-name`:: is the name of the publishing group.
+
+`title`:: is the title of the publication, which is the name of the publication.
+
+`location`:: is the URL or other location where the publication can be accessed.
+
+[example]
+Comité international des poids et mesures. _Décision CIPM/111-10_. Disponible à: https://www.bipm.org/en/committees/ci/cipm/111-2010/recommendation-1.
+
+
 
 [[full-english]]
 ==== Single language: English
 
-The pattern is as follows:
+The pattern for the title is as follows:
 
 [source%unnumbered]
 ----
@@ -747,10 +775,28 @@ CIPM Decision 111-10 (2022).
 [example]
 JCRB Recommendation 43-1 (2021).
 
+The bibliographic citation reference format has this general pattern:
+
+[source%unnumbered]
+----
+{group-name}. _{title}_. Available at: {location}
+----
+
+Where,
+
+`group-name`:: is the name of the publishing group.
+
+`title`:: is the title of the publication, which is the name of the publication.
+
+`location`:: is the URL or other location where the publication can be accessed.
+
+[example]
+International Committee for Weights and Measures. _CIPM Decision 111-10_. Available at: https://www.bipm.org/en/committees/ci/cipm/111-2010/recommendation-1.
+
 
 ==== Language-independent
 
-The pattern is as follows:
+The pattern for title is as follows:
 
 [source%unnumbered]
 ----
@@ -781,11 +827,14 @@ CIPM Decision 111-10 (2022) / Décision CIPM/111-10 (2022).
 [example]
 JCRB Recommendation 43-1 (2021) / Recommandation JCRB/43-1 (2021).
 
+The bibliographic citation reference format depends on the language of the publication.
+
+
 === URN
 
 [example]
 https://www.bipm.org/en/committees/ci/cipm/95-2006/recommendation-1
-`urn:bipm:v1:cipm:95-2006:resolution:1`
+`urn:bipm:v1:cipm:resolution:95-2006:1`
 
 [example]
 CIPM Decision CIPM/110-17 (2021)
@@ -806,7 +855,11 @@ Proceedings of the 26th CGPM (2018), 2019, p472
 
 === General
 
-=== Syntax components
+The BIPM publishes meeting outcomes of committees and consultative groups. It is possible
+to refer to all meeting outcomes of a particular type from a particular meeting.
+
+// === Syntax components
+
 
 === Publication identifier
 
@@ -864,18 +917,106 @@ CIPM 111e réunion -- Décisions (2022)
 
 === Bibliographic citation
 
+==== Syntax components
+
+In the following clauses, these components are used to describe particular parts
+of the reference syntax.
+
+`group-name`:: is the name of the publishing group.
+
+`identifier`:: is the publication identifier of the meeting outcomes.
+
+`title`:: is the title of the publication, which is the name of the publication.
+
+`location`:: is the URL or other location where the publication can be accessed.
+
+
+==== Single language: French
+
+The bibliographic citation reference format has this general pattern:
+
+[source%unnumbered]
+----
+{group-name-in-french}. _{identifier-in-french}_. Disponible à: {location}
+----
+
+
+[example]
+Comité international des poids et mesures. _CIPM 111e réunion -- Décisions_. Disponible à: https://www.bipm.org/en/committees/ci/cipm/111-2022/decisions
+
+
+==== Single language: English
+
+The bibliographic citation reference format has this general pattern:
+
+[source%unnumbered]
+----
+{group-name-in-english}. _{identifier-in-english}_. Available at: {location}
+----
+
+
+[example]
+International Committee for Weights and Measures. _CIPM 111th meeting -- Decisions_. Available at: https://www.bipm.org/en/committees/ci/cipm/111-2022/decisions
+
+
+==== Language-independent
+
+The bibliographic citation reference format is to be adopted to the language of
+the publication.
+
+
 === URN
+
+For the meeting outcomes, it uses the following pattern:
+
+[source%unnumbered]
+----
+urn:bipm:v1:{group}:{venue-type}:{venue-id}:{outcomes-type}:{year}
+----
+
+Where,
+
+`group`:: is the group responsible for the meeting outcomes, which is one of the codes listed
+at <<bipm-groups-codes>>.
++
+[example]
+The CIPM has the code `cipm`.
+
+
+`venue-type`:: (optional) type of venue where the meeting outcomes are produced.
+Accepted value is only `meeting`.
+
+`venue-id`:: (optional) identifier of the venue where the meeting outcomes are produced.
+Multiple sessions of the same meeting are identified by a dash-separated identifier.
++
+[example]
+`111` is the identifier of the 111th meeting of the CIPM.
++
+[example]
+`111-2` is the identifier of session II of the 111th meeting of the CIPM.
+
+`outcomes-type`:: type of outcomes, which is one of the following:
+`decisions`::: for decisions
+`resolutions`::: for resolutions
+`recommendations`::: for recommendations
+
+`year`:: is the year of the meeting outcomes.
+
+NOTE: Meetings can be held in multiple years or across sessions.
 
 
 [[ref-convention]]
 == Convention and its articles
+
 === General
 
 [example]
 The Metre Convention and Annexed Regulations
 
 === Publication identifier
+
 === Bibliographic citation
+
 === URN
 
 
@@ -890,14 +1031,194 @@ The SI Brochure is the BIPM publication that defines the SI system.
 
 === Publication identifier
 
+==== Syntax components
+
+In the following clauses, these components are used to describe particular
+parts of the reference syntax.
+
+`edition-number`:: is the edition number of the SI Brochure.
++
 [example]
-"SI Brochure 9e".
+9e.
+
+`version-number`:: (optional) is the version number of the SI Brochure.
++
+[example]
+v3.01.
+
+`year`:: is the year of publication of the SI Brochure.
++
+[example]
+2019.
+
+`updated-year`:: (optional) is the year of the latest update of the SI Brochure.
++
+[example]
+2020.
+
+
+==== Single language: English
+
+The pattern is as follows:
+
+[source%unnumbered]
+----
+SI Brochure {edition-number} {version-number} ({year}[/{updated-year}], E)
+----
+
+The `version-number` and `updated-year` are optional.
+
+
+Where,
+
+[example]
+"SI Brochure 9e (2019, E)".
+
+[example]
+"SI Brochure 9e v3.01 (2019, E)".
+
+[example]
+"SI Brochure 9e v3.01 (2019/2024, E)" is originally published in 2019, but updated in 2024.
+
+
+==== Single language: French
+
+The pattern is as follows:
+
+[source%unnumbered]
+----
+Brochure sur le SI {edition-number} {version-number} ({year}[/{updated-year}], F)
+----
+
+The `version-number` and `updated-year` are optional.
+
+
+[example]
+"Brochure sur le SI 9e (2019, F)".
+
+[example]
+"Brochure sur le SI 9e v3.01 (2019, F)".
+
+[example]
+"Brochure sur le SI 9e v3.01 (2019/2024, F)" is originally published in 2019, but updated in 2024.
+
+
+
+==== Language-independent
+
+This is the format for referring to the SI Brochure in a language-independent
+manner. This also applies to the bilingual version of the SI Brochure.
+
+The pattern is as follows:
+
+[source%unnumbered]
+----
+SI Brochure {edition-number} {version-number} ({year}[/{updated-year}])
+----
+
+The `version-number` and `updated-year` are optional.
+
+[example]
+SI Brochure 9e (2019).
+
+[example]
+SI Brochure 9e v3.01 (2019).
+
+[example]
+SI Brochure 9e v3.01 (2019/2024).
 
 
 === Bibliographic citation
 
+==== General
+
+The bibliographic citation reference format is used for referencing the SI Brochure
+in a bibliography or references section.
+
+==== Syntax components
+
+In the following clauses, these components are used to describe particular parts
+of the reference syntax.
+
+`author`:: is the author of the SI Brochure, which is the BIPM in the selected language.
+
+`title`:: is the title of the SI Brochure, which is always "Le Système international d'unités/The International System of Units" in both languages.
+
+`edition`:: is the edition number of the SI Brochure.
+
+`version`:: (optional) is the version number of the SI Brochure.
+
+`year`:: is the year of publication of the SI Brochure.
+
+`updated-year`:: (optional) is the year of the latest update of the SI Brochure.
+
+`location`:: is the web-accessible location of the SI Brochure.
+
+
+==== Single language: French
+
+The general pattern is as follows:
+
+[source%unnumbered]
+----
+{author}. _{title}_. {edition} {version} ({updated-year}, F). Disponible à: {location}
+----
+
+Where,
+
+`author`:: is the author of the SI Brochure, which is always "Bureau international des poids et mesures" in French.
+
 [example]
-"BIPM, The International System of Units (SI Brochure) [9th edition, 2019], https://www.bipm.org/en/publications/si-brochure/."
+Bureau international des poids et mesures. (2024). Le Système international d'unités/The International System of Units [Brochure]. 9e édition. https://www.bipm.org/en/publications/si-brochure
+
+[example]
+Bureau international des poids et mesures. (2024). Le Système international d'unités/The International System of Units [Brochure]. 9e édition. Version 3.01. https://www.bipm.org/en/publications/si-brochure
+
+NOTE: In the full-length syntax, the year of the publication is not given, but
+the updated year is given if available.
+
+
+==== Single language: English
+
+The general pattern is as follows:
+
+[source%unnumbered]
+----
+{author}. _{title}_. {edition} {version} ({updated-year}, E). Available at: {location}
+----
+
+Where,
+
+`author`:: is the author of the SI Brochure, which is always "Bureau International des Poids et Mesures" in English.
+
+[example]
+Bureau International des Poids et Mesures. (2024). Le Système international d'unités/The International System of Units [Brochure]. 9th edition. https://www.bipm.org/en/publications/si-brochure
+
+[example]
+Bureau International des Poids et Mesures. (2024). Le Système international d'unités/The International System of Units [Brochure]. 9th edition. Version 3.01. https://www.bipm.org/en/publications/si-brochure
+
+NOTE: In the full-length syntax, the year of the publication is not given, but
+the updated year is given if available.
+
+
+
+==== Language-independent
+
+The general pattern is as follows:
+
+[source%unnumbered]
+----
+{author}. _{title}_. {edition} {version} ({updated-year}). {location-indicator} {location}
+----
+
+Where,
+
+`location-indicator`:: is the language indicator, which is "Disponible à:" in French and "Available at:" in English, adopted to the language of the publication.
+
+all other fields:: are as described in the previous clauses adopted to the language of the publication.
+
+
+
 
 === URN
 
@@ -905,12 +1226,41 @@ For the SI Brochure, it uses the following pattern:
 
 [source%unnumbered]
 ----
-urn:bipm:v1:bipm:si-brochure:{edition-number}
+urn:bipm:v1:bipm:si-brochure:{edition-number}:{version-number}:{year}
 ----
+
+Where,
+
+`edition-number`:: is the edition number of the SI Brochure.
++
+[example]
+`9` is the edition number of the 9th edition of the SI Brochure. Notice the
+absence of the letter "e" after the number.
+
+`version-number`:: is the version number of the SI Brochure.
++
+[example]
+`3.01` is the version number of the 9th edition of the SI Brochure. Notice the
+absence of the letter "v" before the version number.
+
+`year`:: is the latest year of publication of the SI Brochure at the version.
++
+[example]
+`2024` is the year of publication of the 9th edition of the SI Brochure.
+
+[example]
+urn:bipm:v1:bipm:si-brochure:9::2019
+
+[example]
+urn:bipm:v1:bipm:si-brochure:9:3.01:2024
+
+
 
 [[ref-mep]]
 == Mise en pratique
 === General
+
+
 === Publication identifier
 === Bibliographic citation
 === URN
