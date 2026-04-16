@@ -1,0 +1,62 @@
+<relaton-collection xmlns="https://open.ribose.com/relaton-xml"><title>WARNING: DRAFT DOCUMENTS - Editor resources</title><contributor><role type='author'/><organization><name>BIPM - Bureau International des Poids et Mesures</name></organization></contributor><relation type='partOf'><bibdata type="standard" schema-version="v1.2.9">
+  <title type="title-main" language="en">Guide to referencing BIPM information resources</title>
+  <title type="title-main" language="fr">Guide de référencement des ressources d’information du BIPM</title>
+  <uri type="xml">./documents/bipm-references-en.xml</uri>
+  <uri type="pdf">./documents/bipm-references-en.pdf</uri>
+  <uri type="html">./documents/bipm-references-en.html</uri>
+  <uri type="rxl">./documents/bipm-references-en.rxl</uri>
+  <docidentifier type="BIPM" primary="true">BIPM BIPM 1010</docidentifier>
+  <docnumber>BIPM 1010</docnumber>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>Bureau International des Poids et Mesures</name>
+      <abbreviation>BIPM</abbreviation>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      <name>Bureau International des Poids et Mesures</name>
+      <subdivision>
+International Bureau of Weights and Measures
+
+Bureau international des poids et mesures
+BIPMBIPM</subdivision>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>Bureau International des Poids et Mesures</name>
+      <abbreviation>BIPM</abbreviation>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <version>
+    <revision-date>2023-02-08</revision-date>
+  </version>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>draft-proposal</stage>
+  </status>
+  <copyright>
+    <from>2023</from>
+    <owner>
+      <organization>
+        <name>Bureau International des Poids et Mesures</name>
+        <abbreviation>BIPM</abbreviation>
+      </organization>
+    </owner>
+  </copyright>
+  <ext schema-version="v1.0.0">
+    <doctype>guide</doctype>
+    <structuredidentifier>
+      <docnumber>BIPM 1010</docnumber>
+    </structuredidentifier>
+  </ext>
+</bibdata></relation>
+</relaton-collection>
