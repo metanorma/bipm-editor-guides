@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="2.8.3" schema-version="v2.1.5" flavor="bipm">
+<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="2.8.7" schema-version="v2.1.6" flavor="bipm">
 <bibdata type="standard">
 <title language="en" type="title-main">Guide to referencing BIPM information resources</title>
 
 <title language="fr" type="title-main">Guide de référencement des ressources d’information du BIPM</title>
-<docidentifier primary="true" type="BIPM">BIPM BIPM 1010</docidentifier><docnumber>BIPM 1010</docnumber><contributor><role type="author"/><organization>
+<docidentifier primary="true" type="BIPM">BIPM BIPM 1010</docidentifier><docnumber>BIPM 1010</docnumber><date type="updated"><on>2023-02-08</on></date><contributor><role type="author"/><organization>
 <name>Bureau International des Poids et Mesures</name>
 <abbreviation>BIPM</abbreviation></organization></contributor><contributor><role type="author"><description>committee</description></role><organization>
 <name>Bureau International des Poids et Mesures</name>
@@ -14,7 +14,7 @@
 <name language="fr">Bureau international des poids et mesures</name>
 <identifier>BIPM</identifier><identifier type="full">BIPM</identifier></subdivision></organization></contributor><contributor><role type="publisher"/><organization>
 <name>Bureau International des Poids et Mesures</name>
-<abbreviation>BIPM</abbreviation></organization></contributor><edition>1</edition><version><revision-date>2023-02-08</revision-date></version><language>en</language><script>Latn</script><status><stage>draft-proposal</stage></status><copyright><from>2023</from><owner><organization>
+<abbreviation>BIPM</abbreviation></organization></contributor><edition>1</edition><version>2023-02-08</version><language>en</language><script>Latn</script><status><stage>draft-proposal</stage></status><copyright><from>2023</from><owner><organization>
 <name>Bureau International des Poids et Mesures</name>
 <abbreviation>BIPM</abbreviation></organization></owner></copyright><ext><doctype>guide</doctype><flavor>bipm</flavor><structuredidentifier><docnumber>BIPM 1010</docnumber></structuredidentifier></ext></bibdata><metanorma-extension><semantic-metadata><stage-published>false</stage-published></semantic-metadata>
 <presentation-metadata><toc-heading-levels>2</toc-heading-levels><html-toc-heading-levels>2</html-toc-heading-levels><doc-toc-heading-levels>2</doc-toc-heading-levels><pdf-toc-heading-levels>2</pdf-toc-heading-levels></presentation-metadata></metanorma-extension>
@@ -2492,32 +2492,114 @@ publishes.<note id="_eb6fc5f0-898d-0029-cbe0-a157e98a2ca4"><p id="_4f009fc3-fc5f
 </td>
 </tr></tbody>
 </table>
-</annex><bibliography><references id="_8c16bdcf-8ee4-f2e5-9599-d787704fcc91" normative="false" obligation="informative">
-<title id="_1d852725-9432-e979-5884-c8c2939954c3">References</title><bibitem anchor="bipm-si-brochure" id="_7efd4e15-5af9-9c3b-da4e-d77bfc5ed226">
-  <formattedref format="application/x-isodoc+xml">BIPM, The International System of Units (SI Brochure) [9th edition, 2019], <link target="https://www.bipm.org/en/publications/si-brochure/"/>.</formattedref>
-  <docidentifier type="BIPM">BIPM SI Brochure</docidentifier>
+</annex><bibliography><references id="_e25bdf22-abc0-ad29-263d-25d92ab16484" normative="false" obligation="informative">
+<title id="_1d852725-9432-e979-5884-c8c2939954c3">References</title><bibitem id="_3662f6b1-d91e-c351-e9ea-95fe47c609a4" type="standard" schema-version="v1.5.6" anchor="bipm-si-brochure">
+  <fetched>2026-06-16</fetched>
+  
+<title language="en" type="title-main">The International System of Units</title>
+
+  
+<title language="en" type="title-cover">The International System of Units (SI)</title>
+
+  
+<title language="fr" type="title-main">Le Système international d’unités</title>
+
+  
+<title language="fr" type="title-cover">Le Système international d’unités (SI)</title>
+
+  <docidentifier type="BIPM" primary="true">BIPM SI Brochure sur le SI 9e v3.01 (2019/2024, F)</docidentifier>
+  <docidentifier type="ISBN">978-92-822-2272-0</docidentifier>
+  <docidentifier type="BIPM" primary="true">BIPM SI Brochure 9e v3.01 (2019/2024, E)</docidentifier>
+  <docnumber>SI Brochure 9e v3.01 (2019/2024, E)</docnumber>
+  <date type="updated">
+    <on>2024-08-28</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      
+<name>Bureau international des poids et mesures</name>
+
+      <abbreviation>BIPM</abbreviation>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      
+<name>Bureau international des poids et mesures</name>
+
+      <subdivision type="Committee">
+        
+<name language="en">International Bureau of Weights and Measures</name>
+
+        
+<name language="fr">Bureau International des Poids et Mesures</name>
+
+        <identifier>BIPM</identifier>
+        <identifier type="full">BIPM</identifier>
+      </subdivision>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>Bureau international des poids et mesures</name>
+
+      <abbreviation>BIPM</abbreviation>
+    </organization>
+  </contributor>
+  <edition>9</edition>
+  <version>v3.01</version>
+  <language>fr</language>
   <language>en</language>
   <script>Latn</script>
-</bibitem><bibitem id="_8b6472c1-7835-bfd4-2f6e-f388b2693397" type="standard" schema-version="v1.2.9" anchor="iso-690">
-  <fetched>2026-04-16</fetched>
+  <status>
+    <stage>in-force</stage>
+  </status>
+  <copyright>
+    <from>2024</from>
+    <owner>
+      <organization>
+        
+<name>Bureau international des poids et mesures</name>
+
+        <abbreviation>BIPM</abbreviation>
+      </organization>
+    </owner>
+  </copyright>
+</bibitem><bibitem id="_0241c01f-ebed-6ab9-c7f7-97b6c421fdde" type="standard" schema-version="v1.5.6" anchor="iso-690">
+  <fetched>2026-06-16</fetched>
   
-<title type="title-intro" format="text/plain" language="en" script="Latn">Information and documentation</title>
+<title language="en" script="Latn" type="title-intro">Information and documentation</title>
 
   
-<title type="title-main" format="text/plain" language="en" script="Latn">Guidelines for bibliographic references and citations to information resources</title>
+<title language="en" script="Latn" type="title-main">Guidelines for bibliographic references and citations to information resources</title>
 
   
-<title type="main" format="text/plain" language="en" script="Latn">Information and documentation — Guidelines for bibliographic references and citations to information resources</title>
+<title language="en" script="Latn" type="main">Information and documentation — Guidelines for bibliographic references and citations to information resources</title>
+
+  
+<title language="fr" script="Latn" type="title-intro">Information et documentation</title>
+
+  
+<title language="fr" script="Latn" type="title-main">Principes directeurs pour la rédaction des références bibliographiques et des citations des ressources d’information</title>
+
+  
+<title language="fr" script="Latn" type="main">Information et documentation — Principes directeurs pour la rédaction des références bibliographiques et des citations des ressources d’information</title>
 
   <uri type="src">https://www.iso.org/standard/72642.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:72642:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/07/26/72642.detail.rss</uri>
   <docidentifier type="ISO" primary="true">ISO 690:2021</docidentifier>
   <docidentifier type="iso-reference">ISO 690:2021(E)</docidentifier>
-  <docidentifier type="URN">urn:iso:std:iso:690:stage-60.60</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso:690</docidentifier>
   <docnumber>690</docnumber>
   <date type="published">
-    <on>2021-06</on>
+    <on>2021-06-11</on>
   </date>
   <contributor>
     <role type="publisher"/>
@@ -2529,20 +2611,30 @@ publishes.<note id="_eb6fc5f0-898d-0029-cbe0-a157e98a2ca4"><p id="_4f009fc3-fc5f
       <uri>www.iso.org</uri>
     </organization>
   </contributor>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <subdivision type="technical-committee" subtype="TC">
+        
+<name>Identification and description</name>
+
+        <identifier>ISO/TC 46/SC 9</identifier>
+      </subdivision>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
   <edition>4</edition>
   <language>en</language>
-  <language>fr</language>
   <script>Latn</script>
-  <abstract format="text/plain" language="en" script="Latn">This document describes a set of principles, guidelines, and requirements for the preparation of bibliographic references and citations in works that are not themselves primarily bibliographical. It is applicable to bibliographic references and citations for all kinds of information resources, including but not limited to monographs, serials, contributions within monographs and serials, patents, cartographic materials, artworks, performances and diverse electronic resources, such as research datasets, databases, programs and applications, Web archives and social media, music, recorded sound, prints, photographs, graphic and audio-visual materials, archival sources and moving images.
-This document provides a system for citing information resources that renders deterministic output, such that a citation generated by this system can be uniquely mapped back to the originally defined set of source elements. This system is intended to be applicable across multiple languages. Citations generated by this system are machine-parseable. The citation system described in this document can be used as a configurable framework for building citation styles.
-This document does not specify a data model for machine‑readable citations, although such specification may be provided in a separate document or added to a later edition of ISO 690.
-Guidelines for legal citations, such as references to cases, statutes or treatises, are not addressed in this document, since such guidelines are usually country-specific1. Recommendations with regards to what kind of information resources may or may not be cited, or describing the risks involved with, for example, citing social media, are not within the scope of this document2.
- 
-1 For example, the ALWD Guide to Legal Citation, and Bluebook, are commonly used in the USA depending on jurisdiction acceptance.
-2 Academic institutions or scientific publishers may not accept references for some information resources such as Wikipedia articles for research papers and other scientific documents.</abstract>
+  <abstract language="en" script="Latn">This document describes a set of principles, guidelines, and requirements for the preparation of bibliographic references and citations in works that are not themselves primarily bibliographical. It is applicable to bibliographic references and citations for all kinds of information resources, including but not limited to monographs, serials, contributions within monographs and serials, patents, cartographic materials, artworks, performances and diverse electronic resources, such as research datasets, databases, programs and applications, Web archives and social media, music, recorded sound, prints, photographs, graphic and audio-visual materials, archival sources and moving images. This document provides a system for citing information resources that renders deterministic output, such that a citation generated by this system can be uniquely mapped back to the originally defined set of source elements. This system is intended to be applicable across multiple languages. Citations generated by this system are machine-parseable. The citation system described in this document can be used as a configurable framework for building citation styles. This document does not specify a data model for machine‑readable citations, although such specification may be provided in a separate document or added to a later edition of ISO 690. Guidelines for legal citations, such as references to cases, statutes or treatises, are not addressed in this document, since such guidelines are usually country-specific1. Recommendations with regards to what kind of information resources may or may not be cited, or describing the risks involved with, for example, citing social media, are not within the scope of this document2.   1 For example, the ALWD Guide to Legal Citation, and Bluebook, are commonly used in the USA depending on jurisdiction acceptance. 2 Academic institutions or scientific publishers may not accept references for some information resources such as Wikipedia articles for research papers and other scientific documents.</abstract>
   <status>
-    <stage>60</stage>
-    <substage>60</substage>
+    <stage>90</stage>
+    <substage>20</substage>
   </status>
   <copyright>
     <from>2021</from>
@@ -2555,34 +2647,47 @@ Guidelines for legal citations, such as references to cases, statutes or treatis
     </owner>
   </copyright>
   <relation type="obsoletes">
-    <bibitem type="standard">
-      <formattedref format="text/plain">ISO 690:2010</formattedref>
+    <bibitem>
+      <formattedref>ISO 690:2010</formattedref>
       <docidentifier type="ISO" primary="true">ISO 690:2010</docidentifier>
+      <date type="published">
+        <on>2010-06-14</on>
+      </date>
     </bibitem>
 
   </relation>
   <place>
     <city>Geneva</city>
   </place>
-</bibitem><bibitem id="_bb0d98bf-3699-f27f-892d-a62abdf32e5c" type="standard" schema-version="v1.2.9" anchor="iso-26324">
-  <fetched>2026-04-16</fetched>
+</bibitem><bibitem id="_961f2d3b-0c9b-8a05-5a17-18ff0faf260c" type="standard" schema-version="v1.5.6" anchor="iso-26324">
+  <fetched>2026-06-16</fetched>
   
-<title type="title-intro" format="text/plain" language="en" script="Latn">Information and documentation</title>
+<title language="en" script="Latn" type="title-intro">Information and documentation</title>
 
   
-<title type="title-main" format="text/plain" language="en" script="Latn">Digital object identifier system</title>
+<title language="en" script="Latn" type="title-main">Digital object identifier system</title>
 
   
-<title type="main" format="text/plain" language="en" script="Latn">Information and documentation — Digital object identifier system</title>
+<title language="en" script="Latn" type="main">Information and documentation — Digital object identifier system</title>
+
+  
+<title language="fr" script="Latn" type="title-intro">Information et documentation</title>
+
+  
+<title language="fr" script="Latn" type="title-main">Système d’identifiant numérique d’objet</title>
+
+  
+<title language="fr" script="Latn" type="main">Information et documentation — Système d’identifiant numérique d’objet</title>
 
   <uri type="src">https://www.iso.org/standard/81599.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:81599:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/08/15/81599.detail.rss</uri>
   <docidentifier type="ISO" primary="true">ISO 26324:2022</docidentifier>
   <docidentifier type="iso-reference">ISO 26324:2022(E)</docidentifier>
   <docidentifier type="URN">urn:iso:std:iso:26324:stage-95.99</docidentifier>
   <docnumber>26324</docnumber>
   <date type="published">
-    <on>2022-08</on>
+    <on>2022-08-26</on>
   </date>
   <contributor>
     <role type="publisher"/>
@@ -2594,14 +2699,27 @@ Guidelines for legal citations, such as references to cases, statutes or treatis
       <uri>www.iso.org</uri>
     </organization>
   </contributor>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <subdivision type="technical-committee" subtype="TC">
+        
+<name>Identification and description</name>
+
+        <identifier>ISO/TC 46/SC 9</identifier>
+      </subdivision>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
   <edition>2</edition>
   <language>en</language>
-  <language>fr</language>
   <script>Latn</script>
-  <abstract format="text/plain" language="en" script="Latn">This document specifies the syntax, description and resolution functional components of the digital object identifier system. It specifies the general principles for the creation, registration and administration of DOI names (where DOI is an initialism for “digital object identifier”).
-This document defines the syntax for a DOI name, which is used for the identification of an object of any material form (digital or physical) or an abstraction (such as a textual work) where there is a functional need to distinguish it from other objects.
-The DOI name does not replace, nor is it an alternative for, an identifier used in another scheme, such as the schemes defined by ISO/TC 46/SC 9. This document describes how the DOI system can be used in conjunction with another identifier scheme (for example, to provide additional functionality, such as resolution, where this is not already available), and how the character string of that other scheme can be integrated into the DOI system through the DOI metadata record or the DOI syntax or both.
-This document does not specify particular technologies to implement the syntax, description and resolution functional components of the digital object identifier system.</abstract>
+  <abstract language="en" script="Latn">This document specifies the syntax, description and resolution functional components of the digital object identifier system. It specifies the general principles for the creation, registration and administration of DOI names (where DOI is an initialism for “digital object identifier”). This document defines the syntax for a DOI name, which is used for the identification of an object of any material form (digital or physical) or an abstraction (such as a textual work) where there is a functional need to distinguish it from other objects. The DOI name does not replace, nor is it an alternative for, an identifier used in another scheme, such as the schemes defined by ISO/TC 46/SC 9. This document describes how the DOI system can be used in conjunction with another identifier scheme (for example, to provide additional functionality, such as resolution, where this is not already available), and how the character string of that other scheme can be integrated into the DOI system through the DOI metadata record or the DOI syntax or both. This document does not specify particular technologies to implement the syntax, description and resolution functional components of the digital object identifier system.</abstract>
   <status>
     <stage>95</stage>
     <substage>99</substage>
@@ -2617,18 +2735,11 @@ This document does not specify particular technologies to implement the syntax, 
     </owner>
   </copyright>
   <relation type="obsoletes">
-    <bibitem type="standard">
-      <formattedref format="text/plain">ISO 26324:2012</formattedref>
+    <bibitem>
+      <formattedref>ISO 26324:2012</formattedref>
       <docidentifier type="ISO" primary="true">ISO 26324:2012</docidentifier>
-    </bibitem>
-
-  </relation>
-  <relation type="updates">
-    <bibitem type="standard">
-      <formattedref format="text/plain">ISO 26324:2025</formattedref>
-      <docidentifier type="ISO" primary="true">ISO 26324:2025</docidentifier>
-      <date type="circulated">
-        <on>2025-03-13</on>
+      <date type="published">
+        <on>2012-04-23</on>
       </date>
     </bibitem>
 
@@ -2636,10 +2747,10 @@ This document does not specify particular technologies to implement the syntax, 
   <place>
     <city>Geneva</city>
   </place>
-</bibitem><bibitem id="_67d101b8-e952-d76a-2846-93f8776a03f3" type="standard" schema-version="v1.2.9" anchor="rfc-8141">
-  <fetched>2026-04-16</fetched>
+</bibitem><bibitem id="_2404be8d-ea57-94a4-2bcc-ec1cdf1c4a89" type="standard" schema-version="v1.5.6" anchor="rfc-8141">
+  <fetched>2026-06-16</fetched>
   
-<title type="main" format="text/plain">Uniform Resource Names (URNs)</title>
+<title type="main">Uniform Resource Names (URNs)</title>
 
   <uri type="src">https://www.rfc-editor.org/info/rfc8141</uri>
   <docidentifier type="IETF" primary="true">RFC 8141</docidentifier>
@@ -2652,7 +2763,7 @@ This document does not specify particular technologies to implement the syntax, 
     <role type="author"/>
     <person>
       
-<name>          <completename language="en" script="Latn">P. Saint-Andre</completename>       </name>
+<name>                    <formatted-initials language="en" script="Latn">P.</formatted-initials>          <surname language="en" script="Latn">Saint-Andre</surname>          <completename language="en" script="Latn">P. Saint-Andre</completename>       </name>
 
     </person>
   </contributor>
@@ -2660,7 +2771,7 @@ This document does not specify particular technologies to implement the syntax, 
     <role type="author"/>
     <person>
       
-<name>          <completename language="en" script="Latn">J. Klensin</completename>       </name>
+<name>                    <formatted-initials language="en" script="Latn">J.</formatted-initials>          <surname language="en" script="Latn">Klensin</surname>          <completename language="en" script="Latn">J. Klensin</completename>       </name>
 
     </person>
   </contributor>
@@ -2668,7 +2779,7 @@ This document does not specify particular technologies to implement the syntax, 
     <role type="publisher"/>
     <organization>
       
-<name>RFC Publisher</name>
+<name language="en">RFC Publisher</name>
 
     </organization>
   </contributor>
@@ -2676,31 +2787,59 @@ This document does not specify particular technologies to implement the syntax, 
     <role type="authorizer"/>
     <organization>
       
-<name>RFC Series</name>
+<name language="en">RFC Series</name>
 
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      
+<name language="en">Internet Engineering Task Force</name>
+
+      <subdivision type="workgroup">
+        
+<name>Uniform Resource Names, Revised</name>
+
+        <identifier>urnbis</identifier>
+      </subdivision>
+      <abbreviation language="en">IETF</abbreviation>
     </organization>
   </contributor>
   <language>en</language>
   <script>Latn</script>
-  <abstract format="text/html" language="en" script="Latn">
-    <p id="_2fa0da67-b442-9d79-172c-b7b64a1e649b">A Uniform Resource Name (URN) is a Uniform Resource Identifier (URI) that is assigned under the “urn” URI scheme and a particular URN namespace, with the intent that the URN will be a persistent, location-independent resource identifier. With regard to URN syntax, this document defines the canonical syntax for URNs (in a way that is consistent with URI syntax), specifies methods for determining URN-equivalence, and discusses URI conformance. With regard to URN namespaces, this document specifies a method for defining a URN namespace and associating it with a namespace identifier, and it describes procedures for registering namespace identifiers with the Internet Assigned Numbers Authority (IANA). This document obsoletes both RFCs 2141 and 3406.</p>
+  <abstract language="en" script="Latn">
+    <p id="_0df7e885-ea50-8be2-659a-b2c76f91a4da">A Uniform Resource Name (URN) is a Uniform Resource Identifier (URI) that is assigned under the “urn” URI scheme and a particular URN namespace, with the intent that the URN will be a persistent, location-independent resource identifier.  With regard to URN syntax, this document defines the canonical syntax for URNs (in a way that is consistent with URI syntax), specifies methods for determining URN-equivalence, and discusses URI conformance.  With regard to URN namespaces, this document specifies a method for defining a URN namespace and associating it with a namespace identifier, and it describes procedures for registering namespace identifiers with the Internet Assigned Numbers Authority (IANA).  This document obsoletes both RFCs 2141 and 3406.</p>
 
   </abstract>
+  <status>
+    <stage>PROPOSED STANDARD</stage>
+  </status>
   <series>
     
-<title format="text/plain">RFC</title>
+<title>RFC</title>
 
     <number>8141</number>
   </series>
   <series type="stream">
     
-<title format="text/plain">IETF</title>
+<title>IETF</title>
 
   </series>
-  <keyword>Uniform Resource Name</keyword>
-  <keyword>URN</keyword>
-  <keyword>Uniform Resource Identifier</keyword>
-  <keyword>URI</keyword>
+  <keyword>
+    <vocab>Uniform Resource Name</vocab>
+  </keyword>
+  <keyword>
+    <vocab>URN</vocab>
+  </keyword>
+  <keyword>
+    <vocab>Uniform Resource Identifier</vocab>
+  </keyword>
+  <keyword>
+    <vocab>URI</vocab>
+  </keyword>
 </bibitem>
 
 
