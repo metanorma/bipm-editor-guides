@@ -1,0 +1,65 @@
+<relaton-collection xmlns="https://open.ribose.com/relaton-xml"><title>WARNING: DRAFT DOCUMENTS - Editor resources</title><contributor><role type='author'/><organization><name>BIPM - Bureau International des Poids et Mesures</name></organization></contributor><relation type='partOf'><bibdata type="standard" schema-version="v1.5.6">
+  <title language="en" type="title-main">Guide to referencing BIPM information resources</title>
+  <title language="fr" type="title-main">Guide de référencement des ressources d’information du BIPM</title>
+  <uri type="xml">./documents/bipm-references-en.xml</uri>
+  <uri type="pdf">./documents/bipm-references-en.pdf</uri>
+  <uri type="html">./documents/bipm-references-en.html</uri>
+  <uri type="rxl">./documents/bipm-references-en.rxl</uri>
+  <docidentifier primary="true" type="BIPM">BIPM BIPM 1010</docidentifier>
+  <docnumber>BIPM 1010</docnumber>
+  <date type="updated">
+    <on>2023-02-08</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>Bureau International des Poids et Mesures</name>
+      <abbreviation>BIPM</abbreviation>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      <name>Bureau International des Poids et Mesures</name>
+      <subdivision type="Committee">
+        <name language="en">International Bureau of Weights and Measures</name>
+        <name language="fr">Bureau international des poids et mesures</name>
+        <identifier>BIPM</identifier>
+        <identifier type="full">BIPM</identifier>
+      </subdivision>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>Bureau International des Poids et Mesures</name>
+      <abbreviation>BIPM</abbreviation>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <version>2023-02-08</version>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>draft-proposal</stage>
+  </status>
+  <copyright>
+    <from>2023</from>
+    <owner>
+      <organization>
+        <name>Bureau International des Poids et Mesures</name>
+        <abbreviation>BIPM</abbreviation>
+      </organization>
+    </owner>
+  </copyright>
+  <ext schema-version="v1.1.2">
+    <doctype>guide</doctype>
+    <flavor>bipm</flavor>
+    <structuredidentifier>
+      <docnumber>BIPM 1010</docnumber>
+    </structuredidentifier>
+  </ext>
+</bibdata></relation>
+</relaton-collection>
