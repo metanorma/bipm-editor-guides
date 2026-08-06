@@ -400,6 +400,38 @@ information resource type
 
 date:: date of publication of the information resource
 
+=== Information resource identifiers
+
+Most though not all information resource types have a resource-specific identifier,
+used within the scope of the information. This is the `identifier` for URNs,
+and the `resource-specific-id` for publication identifiers in what follows.
+This identifier is typically numeric.
+
+It is possible for the information resource to have subresources, which may be made available
+separately, either as components (parts and subparts), or as sequential complements
+(appendices and annexes). By default, these are indicated within the resource-specific identifier
+as follows:
+
+Part:: `{identifier}-{part}`
+Subpart:: `{identifier}-{part}-{subpart}`
+Appendix:: `{identifier} A{appendix}`
+Annex:: `{identifier} A{appendix}.{annex}`
+
+Note that in the foregoing we use "appendix" and "annex" to refer to first-level and second-level
+complements to an information resource: the choice of "appendix" and "annex" by the BIPM has
+changed by year and language.
+
+The following are illustrations of this kind of numbering:
+
+====
+CIPM DECN 111 (2022, F).
+CIPM DECN 111-10 (2022, F).
+CIPM DECN 111-10-2 (2022, F).
+CIPM DECN 112 A3 (2022, F).
+CIPM DECN 112 A3.5 (2022, F).
+CIPM DECN 113 A3.5 (2022, F).
+====
+
 
 [[ref-proceedings]]
 == Meeting proceedings / meeting reports
